@@ -1,20 +1,24 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React from 'react'
+// import { DimensionScreen } from './src/screens/DimensionScreen';
+// import { PositionScreen } from './src/screens/PositionScreen';
+// import { BoxObjecModelScreen } from './src/screens/BoxObjecModelScreen';
+// import { HelloWordScreens } from './src/screens/HelloWordScreens';
+// import { CountScreens } from './src/screens/CountScreens';
+// import { FlexScreen } from './src/screens/FlexScreen';
+import { TareaScreen } from './src/screens/TareaScreen';
 
-export default function App() {
+const App = () => {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+    
+      // <HelloWordScreens/>
+      // <CountScreens/>
+      // <BoxObjecModelScreen/>
+      // <DimensionScreen/>
+      // <PositionScreen/>
+      // <FlexScreen/>
+      <TareaScreen/>
+  )
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+
+export default App;
